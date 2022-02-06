@@ -27,10 +27,12 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
+  font-style: normal;
 }
 
 p {
   color: var(--accent-text-color);
+  font-weight: 400;
 }
 
 /* logo */
@@ -115,11 +117,9 @@ p {
 .button {
   background-color: var(--accent-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -135,7 +135,6 @@ p {
 /* section feature */
 .section p {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -167,7 +166,6 @@ p {
 }
 
 .comand p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -179,7 +177,7 @@ p {
 } */
 footer {
   background-color: var(--hero-background-color);
-  --new-accent: #ffff96;
+  --new-accent: rgba(255, 255, 255, 0.6);
   color: var(--new-accent);
 }
 
@@ -196,4 +194,47 @@ footer {
 .address-nav p {
   color: var(--new-accent);
   text-decoration: none;
+}
+
+/* page Portfolio */
+/* radiobuttons */
+/* .stick.button {
+  background-color: var(--background-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  display: block; */
+}
+
+/* .stick.button:hover,
+.stick.button:active {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  border-radius: 4px;
+  cursor: pointer; */
+}
+
+/* .button.button:visited {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+} */
+
+a .section-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-link p {
+  font-size: 16px;
+  line-height: 1.87;
 }
