@@ -198,7 +198,7 @@ footer {
 
 /* page Portfolio */
 /* radiobuttons */
-/* .stick.button {
+.stick.button {
   background-color: var(--background-color);
   color: var(--title-text-color);
   font-weight: 500;
@@ -206,7 +206,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  display: block; */
+  display: block;
 }
 
 .stick:hover,
@@ -217,10 +217,10 @@ footer {
   cursor: pointer;
 }
 
-/* .button.button:visited {
+.button.button:visited {
   background-color: var(--accent-color);
   color: var(--primary-text-color);
-} */
+}
 
 a .section-title {
   font-size: 18px;
