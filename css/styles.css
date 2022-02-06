@@ -209,12 +209,12 @@ footer {
   display: block; */
 }
 
-/* .stick.button:hover,
-.stick.button:active {
+.stick:hover,
+.stick:active {
   background-color: var(--accent-color);
   color: var(--primary-text-color);
   border-radius: 4px;
-  cursor: pointer; */
+  cursor: pointer;
 }
 
 /* .button.button:visited {
