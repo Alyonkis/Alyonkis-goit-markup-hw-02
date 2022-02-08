@@ -86,7 +86,6 @@ p {
 /* auth nav */
 .auth-nav .link {
   color: var(--accent-text-color);
-  color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -112,6 +111,7 @@ p {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -119,6 +119,7 @@ p {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.8;
   align-items: center;
   text-align: center;
@@ -142,6 +143,19 @@ p {
 .eye {
   color: var(--primary-text-color);
 }
+/* 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} */
 
 .section-title {
   font-weight: 700;
@@ -151,7 +165,7 @@ p {
 }
 
 .feature-list .title {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -171,13 +185,9 @@ p {
   text-align: center;
 }
 
-/* футер */
-/* address .footer {
-  color: #ffff96;
-} */
 footer {
   background-color: var(--hero-background-color);
-  --new-accent: rgba(255, 255, 255, 0.6);
+  --new-accent: var(--primary-background-color);
   color: var(--new-accent);
 }
 
@@ -192,8 +202,9 @@ footer {
 
 .address-nav .link,
 .address-nav p {
-  color: var(--new-accent);
+  color: #ffffff96;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* page Portfolio */
