@@ -51,10 +51,10 @@ p {
 
 /*  на линках */
 
-.logo:hover,
+/* .logo:hover,
 .logo:focus {
   color: var(--accent-color);
-}
+} */
 
 /* nav */
 /* убрать подчеркивание по ховеру */
