@@ -18,6 +18,7 @@
   --accent-color: #2196f3;
   /* основной цвет фона hero*/
   --hero-background-color: #2f303a;
+  --accent-background-dark-button: #188ce8;
 }
 
 /* body */
@@ -129,7 +130,7 @@ p {
 .button:hover,
 .button:focus {
   cursor: pointer;
-  color: var(--logo-text-color);
+  background-color: var(--accent-background-dark-button);
 }
 
 /* main */
@@ -195,14 +196,14 @@ footer {
 .footer.logo {
   color: var(--primary-background-color);
 }
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
 
-.address-nav .link,
-.address-nav p {
+.address-nav .link {
   color: #ffffff96;
+  text-decoration: none;
+  font-style: normal;
+}
+.address-nav p {
+  color: var(--primary-text-color);
   text-decoration: none;
   font-style: normal;
 }
@@ -212,8 +213,12 @@ footer {
 .stick.button {
   background-color: var(--background-color);
   color: var(--title-text-color);
+  font-family: inherit;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.62;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
